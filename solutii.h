@@ -178,3 +178,122 @@ void sol17() {
 
 
 }
+
+void sol18() {
+	
+	int v[10] = { 10,3,6,17,9,11 };
+
+	int dim = 6;
+
+	perechiElemAcelasiNrDiv(v, dim);
+
+}
+
+void sol19() {
+
+	int v[10] = { 51,842,15,28,77,132 };
+
+	int dim = 6;
+
+	voidPerechiSumaCifreEgale(v, dim);
+
+}
+
+
+void sol20() {
+
+	int v[10] = { 50, 1815, 15, 289, 35, 40 };
+
+	int dim = 6;
+
+	construireVecResImp(v, dim);
+
+}
+
+
+void sol21() {
+
+	int v[10] = { 50, 5, 15, 29, 35, 40 };
+
+	int dim = 6;
+
+	construireVectorSumaCuEx(v, dim);
+
+}
+
+void sol22() {
+
+	int v[10] = { 50, 5, 15, 29, 13, 40 };
+
+	int dim = 6;
+
+	construireVectorRast(v, dim);
+
+}
+
+void sol23() {
+
+	int v[10] = { 50, 5, 15, 29, 13, 40 };
+
+	int dim = 6;
+
+	construireVectorImp(v, dim);
+
+}
+
+void sol24() {
+
+	int v[10] = { 50, 64, 15, 28, 35, 75 };
+
+	int dim = 6;
+
+	primeCuUltimu(v, dim);
+
+}
+
+// FISA
+
+void sol25() {
+
+	int v[10] = { 53,93,32,7,13,19 };
+
+	int dim = 6;
+
+	numerePrimVector(v, dim);
+
+}
+
+void sol26() {
+
+	int v[10] = { 53,83,23,7,13,38 };
+
+	int dim = 6;
+	
+	cifraMinMaxVector(v, dim);
+
+}
+
+
+void sol27() {
+
+	int v[10] = { 523,813,243,725147,3233,3638 };
+
+	int dim = 6;
+
+	rastNrEgaleCifre(v, dim);
+
+}
+
+void sol28() {
+
+	int v[10] = {6,10,14,15,21 };
+
+	int dim = 6;
+
+	int k;
+	cin >> k;
+	cout << "K= " << endl;
+
+	nrDivPropriiKNr(v, dim, k);
+
+}
